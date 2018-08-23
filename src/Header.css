@@ -16,39 +16,14 @@
 }
 
 .App-title {
-  width: 20%;
+  width: 30%;
   height: 40px;
   float: left;
   padding: 20px;
   font-size: 1.5em;
+  color:#fff;
 }
-
-nav {
-  height: 40px;
-  float: right;
-  padding: 20px;
-}
-
-nav a {
-  height: 100%;
-  float: left;
-  margin: 5px 10px;
-  color: #fff;
-  text-decoration: none;
-  display: block;
-}
-
-nav a:hover {
-  color: #222;
-}
-
-
 
 .App-intro {
   font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
