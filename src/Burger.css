@@ -39,6 +39,7 @@
   height:90%;
   background: #F8EEE7;
   padding: 2.5em 1.5em 0;
+  overflow: hidden;
 }
 
 .menu-item:hover {
