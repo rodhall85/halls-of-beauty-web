@@ -1,0 +1,39 @@
+.treatment {
+	width: 100%;
+	min-height: 50px;
+	background: #F8EEE7;
+	color: #222;
+	float: left;
+}
+
+.treatment-name {
+	width: 80%;
+	text-align: left;
+	float: left;
+	font-weight: bold;
+	font-size: 1em;
+	padding-left: 2%;
+	padding-top: 1%;
+}
+
+.treatment-description {
+	width: 80%;
+	text-align: left;
+	clear: left;
+	float: left;
+	font-style: italic;
+	font-size: 1em;
+	padding-left: 2%;
+}
+
+.treatment-price {
+	width: 9%;
+	height: 100%;
+	float: right;
+	background: #c245bc;
+	text-align: right;
+	font-weight: bold;
+	font-size: 1.7em;
+	padding: 1% 2% 1% 0;
+	color: #F8EEE7;
+}

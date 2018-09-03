@@ -11,10 +11,11 @@
 
 .pic-bev {
   width: 50%;
-  height: 51%;
+  height: 50%;
+  border-radius: 50%;
   margin: auto;
   background: url('./images/bev-2.JPG') no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 .write-up {
