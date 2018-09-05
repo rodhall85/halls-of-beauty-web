@@ -1,0 +1,47 @@
+.App-footer {
+  background: #222;
+  color: #F8EEE7;
+  float: left;
+  width: 100%;
+}
+
+.footer-copyright {
+  float: left;
+}
+
+.footer-right {
+  float: right;
+  padding-top: 13px;
+}
+
+.footer-copyright {
+  padding: 30px;
+}
+
+.footer-email, .footer-phone {
+  padding: 0 20px;
+}
+
+.footer-email {
+  color: #F8EEE7;
+  text-decoration: none;
+}
+
+.footer-email:hover {
+  text-decoration: underline;
+}
+
+.footer-facebook {
+  padding: 0 20px;
+  position: relative;
+  top: 10px;
+}
+
+.footer-facebook {
+  height: 32px;
+  width: 32px;
+}
+
+.footer-facebook:hover {
+  filter: brightness(1.2);
+}
