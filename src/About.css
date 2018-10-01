@@ -2,11 +2,7 @@
 	width: 100vw;
 	height: 100vh;
 	color: #fff;
-	background: linear-gradient(-45deg, #F8EEE7, #94618E, #49274A);
-	background-size: 400% 400%;
-	-webkit-animation: Gradient 15s ease infinite;
-	-moz-animation: Gradient 15s ease infinite;
-	animation: Gradient 15s ease infinite;
+	background: #94618E;
 }
 
 .pic-bev {

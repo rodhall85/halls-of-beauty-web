@@ -12,7 +12,7 @@ body {
   background-color: #fff;
 }
 
-html, body {
+html, body, input, textarea {
   height: 100%;
   font-family: 'Montserrat';
 }
