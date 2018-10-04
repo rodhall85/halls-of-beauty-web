@@ -1,24 +1,21 @@
-.contact {
-  width: 100%;
-  background: #94618E;
-  color:#fff;
-  padding: 50px 0;
-}
-
-.contact a {
+.contact-form a {
   color: #F8EEE7;
   text-decoration: none;
 }
 
-.contact a:hover {
+.contact-form a:hover {
   text-decoration: underline;
 }
 
 .contact-form {
-  width:80%;
-  margin: auto;
+  width: 100%;
+  color:#fff;
+  background: #333;
   padding-bottom: 50px;
-  background: #222;
+}
+
+.contact-form-info {
+  padding: 010px;
 }
 
 .contact-form-input {
@@ -44,3 +41,8 @@
   font-size: 2em;
   font-family: 'EuphoriaScript';
 }
+
+.contact-form-submit:hover {
+  filter: brightness(1.2);
+}
+

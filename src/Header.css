@@ -1,12 +1,12 @@
-.App-header {
+.header {
   background-color: #94618E;
-  height: 8vh;
   width: 100%;
   position: absolute;
   top: 0;
 }
 
-.App-title {
+.title {
   color:#F8EEE7;
   text-align: left;
+  padding-left: 20px;
 }

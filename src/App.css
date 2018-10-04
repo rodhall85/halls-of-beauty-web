@@ -1,4 +1,4 @@
-.App {
+.app {
   text-align: center;
   height: 100%;
 }
@@ -19,7 +19,7 @@ html, body, input, textarea {
 
 h2 {
   font-family: 'EuphoriaScript';
-  font-size: 4em;
+  font-size: 3em;
 }
 
 @font-face {

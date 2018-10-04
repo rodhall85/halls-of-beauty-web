@@ -36,25 +36,23 @@ class Contact extends Component {
 
   render () {
     return (
-      <div className="contact">
-        <div className="contact-form">
-          <h2 className="section-title">~ Get in touch ~</h2>
-          <div>
-            <p>Whittlesey, Peterborough, UK</p>
-            <p><a href="mailto:bev.hall@outlook.com">bev.hall@outlook.com</a> | 07513261203</p>
-            <br />
-            <p>Appointments available from 9:30am to 8pm Mon -Fri</p>
-            <p>Please leave me a message to book</p>
-            <br />
-          </div>
-          <form onSubmit={this.handleSubmit}>
-            <input className="contact-form-input" name="name" value={this.state.name} onChange={this.handleInputChange} onFocus={this.handleFocus} />
-            <input className="contact-form-input" name="email" value={this.state.email} onChange={this.handleInputChange} onFocus={this.handleFocus} />
-            <input className="contact-form-input" name="phone" value={this.state.phone} onChange={this.handleInputChange} onFocus={this.handleFocus} />
-            <textarea className="contact-form-input" name="message" value={this.state.message} onChange={this.handleInputChange} onFocus={this.handleFocus} />
-            <input className="contact-form-submit" type="submit" value="Send" />
-          </form>
+      <div className="contact-form" id="contact">
+        <h2 className="section-title">~ Get in touch ~</h2>
+        <div className="contact-form-info">
+          <p>Whittlesey, Peterborough, UK</p>
+          <p><a href="mailto:bev.hall@outlook.com">bev.hall@outlook.com</a> | 07513261203</p>
+          <br />
+          <p>Appointments available from 9:30am to 8pm Mon -Fri</p>
+          <p>Please leave me a message to book</p>
+          <br />
         </div>
+        <form onSubmit={this.handleSubmit}>
+          <input className="contact-form-input" name="name" value={this.state.name} onChange={this.handleInputChange} onFocus={this.handleFocus} />
+          <input className="contact-form-input" name="email" value={this.state.email} onChange={this.handleInputChange} onFocus={this.handleFocus} />
+          <input className="contact-form-input" name="phone" value={this.state.phone} onChange={this.handleInputChange} onFocus={this.handleFocus} />
+          <textarea className="contact-form-input" name="message" value={this.state.message} onChange={this.handleInputChange} onFocus={this.handleFocus} />
+          <input className="contact-form-submit" type="submit" value="Send" />
+        </form>
       </div>
     );
   }

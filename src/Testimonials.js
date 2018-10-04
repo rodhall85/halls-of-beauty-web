@@ -5,7 +5,7 @@ import * as data from './data/testimonials.json';
 class Testimonials extends Component {
   render () {
     return (
-      <div className="testimonials">
+      <div className="testimonials" id="testimonials">
         <h2 className="section-title">~&nbsp;Testimonials&nbsp;~</h2>
         {data.map(testimonial => {
           return (

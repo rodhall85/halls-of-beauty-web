@@ -11,9 +11,7 @@ class TreatmentSubCategory extends Component {
         <span className="treatment-sub-category-name">{subCat.name}</span>
         <span className="treatment-sub-category-description">{subCat.description}</span>
           {subCat.treatments.map(treatment => {
-            return (
-                <Treatment data={treatment} />
-            )
+            return <Treatment data={treatment} />
           })}
       </div>
     )

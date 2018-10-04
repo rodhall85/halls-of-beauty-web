@@ -7,8 +7,8 @@ import { slide as Menu } from 'react-burger-menu'
 class Header extends Component {
   render () {
     return (
-      <header className="App-header">
-        <h1 className="App-title">Halls of Beauty</h1>   
+      <header className="header">
+        <h1 className="title">Halls of Beauty</h1>   
         <Burger />
       </header>
     );
