@@ -1,9 +1,11 @@
 .testimonials {
 	background: #F8EEE7;
+	padding-bottom: 30px;	
 }
 
 .testimonial {
 	padding: 20px;
+	
 }
 
 .testimonial-quote {

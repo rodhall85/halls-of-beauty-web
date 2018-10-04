@@ -2,6 +2,10 @@
 	margin-top: 10px;
 }
 
+.treatment table {
+	display: table
+}
+
 .treatment-sub-category-name {
 	font-size: 1.5em;
 	float: left;
