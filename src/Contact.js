@@ -26,7 +26,7 @@ class Contact extends Component {
 
   handleSubmit(event) {
     const body = `Name: ${this.state.name} \r\nEmail: ${this.state.email} \r\nPhone: ${this.state.phone} \r\nMessage: ${this.state.message}\r\n`;
-    window.location.href="mailto:rodhall@hotmail.co.uk&subject=Enquiry&body="+body;
+    window.location.href="mailto:rodhall@hotmail.co.uk?subject=Enquiry&body="+body;
     event.preventDefault();
   }
 
