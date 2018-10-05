@@ -5,10 +5,10 @@ class Contact extends Component {
   constructor(props) {
     super(props);
     this.defaults = {
-      name: 'Name',
-      email: 'Email',
-      phone: 'Phone',
-      message: 'Message'
+      Name: 'Name',
+      Email: 'Email',
+      Phone: 'Phone',
+      Message: 'Message'
     };
 
     this.state = this.defaults;
@@ -16,6 +16,7 @@ class Contact extends Component {
     this.handleInputChange = this.handleInputChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handleFocus = this.handleFocus.bind(this);
+    this.handleBlur = this.handleBlur.bind(this);
   }
 
   handleInputChange(event) {
@@ -25,13 +26,21 @@ class Contact extends Component {
   }
 
   handleSubmit(event) {
-    const body = `Name: ${this.state.name} \r\nEmail: ${this.state.email} \r\nPhone: ${this.state.phone} \r\nMessage: ${this.state.message}\r\n`;
+    const body = `Name: ${this.state.Name} \r\nEmail: ${this.state.Email} \r\nPhone: ${this.state.Phone} \r\nMessage: ${this.state.Message}\r\n`;
     window.location.href="mailto:rodhall@hotmail.co.uk?subject=Enquiry&body="+body;
     event.preventDefault();
   }
 
   handleFocus(event) {
-    event.target.select();
+    if (event.target.value === event.target.name) {
+      event.target.value = '';
+    }
+  }
+
+  handleBlur(event) {
+    if (event.target.value == '') {
+      event.target.value = event.target.name;
+    }
   }
 
   render () {
@@ -47,10 +56,10 @@ class Contact extends Component {
           <br />
         </div>
         <form onSubmit={this.handleSubmit}>
-          <input className="contact-form-input" name="name" value={this.state.name} onChange={this.handleInputChange} onFocus={this.handleFocus} />
-          <input className="contact-form-input" name="email" value={this.state.email} onChange={this.handleInputChange} onFocus={this.handleFocus} />
-          <input className="contact-form-input" name="phone" value={this.state.phone} onChange={this.handleInputChange} onFocus={this.handleFocus} />
-          <textarea className="contact-form-input" name="message" value={this.state.message} onChange={this.handleInputChange} onFocus={this.handleFocus} />
+          <input className="contact-form-input" name="Name" value={this.state.Name} onChange={this.handleInputChange} onFocus={this.handleFocus} onBlur={this.handleBlur} />
+          <input className="contact-form-input" name="Email" value={this.state.Email} onChange={this.handleInputChange} onFocus={this.handleFocus} onBlur={this.handleBlur} />
+          <input className="contact-form-input" name="Phone" value={this.state.Phone} onChange={this.handleInputChange} onFocus={this.handleFocus} onBlur={this.handleBlur} />
+          <textarea className="contact-form-input" name="Message" value={this.state.Message} onChange={this.handleInputChange} onFocus={this.handleFocus} onBlur={this.handleBlur} />
           <input className="contact-form-submit" type="submit" value="Send" />
         </form>
       </div>
