@@ -13,7 +13,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="app">
+      <div className="app" id="home">
         <Header />
         <Intro />
         <About />

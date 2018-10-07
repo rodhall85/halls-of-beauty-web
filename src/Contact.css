@@ -1,5 +1,18 @@
+.contact-container {
+  width: 100%;
+  color:#fff;
+  background: #333;
+  padding-bottom: 50px;
+  float: left;
+}
+
+.contact-form {
+  max-width: 800px;
+  margin: auto;
+}
+
 .contact-form a {
-  color: #F8EEE7;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -7,13 +20,6 @@
   text-decoration: underline;
 }
 
-.contact-form {
-  width: 100%;
-  color:#fff;
-  background: #333;
-  padding-bottom: 50px;
-  float: left;
-}
 
 .contact-form-info {
   padding: 010px;

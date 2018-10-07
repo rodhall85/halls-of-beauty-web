@@ -1,8 +1,16 @@
-.about {
-	width: 100%;
-	color: #fff;
+.about-container {
 	background: #94618E;
-	padding-bottom: 30px;
+  color: #fff;
+  width: 100%;
+}
+
+.about {
+  max-width: 800px;
+  margin: auto;
+	color: #fff;
+  padding-bottom: 30px;
+	background: rgb(107, 66, 102);
+  padding-bottom: 30px;
 }
 
 .pic-bev {
@@ -11,10 +19,33 @@
   margin: auto;
   background: url('./images/bev-2.JPG') no-repeat;
   background-size: cover;
+  background-position: center; 
 }
 
 .write-up {
   width: 80%;
   margin: auto;
   font-size: 1.4em;
+}
+
+@media (min-width: 640px) {
+  .pic-bev {
+    width: 40%;
+    float: left;
+  }
+
+  .write-up {
+    width: 40%;
+    float: left;
+    padding-left: 50px;
+  }
+
+  .about-container {
+    float: left;
+  }
+
+  .about {
+    height: 690px;
+    padding: 0 0 50px 50px
+  }
 }

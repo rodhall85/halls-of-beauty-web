@@ -45,23 +45,25 @@ class Contact extends Component {
 
   render () {
     return (
-      <div className="contact-form" id="contact">
-        <h2 className="section-title">~ Get in touch ~</h2>
-        <div className="contact-form-info">
-          <p>Whittlesey, Peterborough, UK</p>
-          <p><a href="mailto:bev.hall@outlook.com">bev.hall@outlook.com</a> | 07513261203</p>
-          <br />
-          <p>Appointments available from 9:30am to 8pm Mon -Fri</p>
-          <p>Please leave me a message to book</p>
-          <br />
+      <div className="contact-container">
+        <div className="contact-form" id="contact">
+          <h2 className="section-title">~ Get in touch ~</h2>
+          <div className="contact-form-info">
+            <p>Whittlesey, Peterborough, UK</p>
+            <p><a href="mailto:bev.hall@outlook.com">bev.hall@outlook.com</a> | 07513261203</p>
+            <br />
+            <p>Appointments available from 9:30am to 8pm Mon -Fri</p>
+            <p>Please leave me a message to book</p>
+            <br />
+          </div>
+          <form onSubmit={this.handleSubmit}>
+            <input className="contact-form-input" name="Name" value={this.state.Name} onChange={this.handleInputChange} onFocus={this.handleFocus} onBlur={this.handleBlur} />
+            <input className="contact-form-input" name="Email" value={this.state.Email} onChange={this.handleInputChange} onFocus={this.handleFocus} onBlur={this.handleBlur} />
+            <input className="contact-form-input" name="Phone" value={this.state.Phone} onChange={this.handleInputChange} onFocus={this.handleFocus} onBlur={this.handleBlur} />
+            <textarea className="contact-form-input" name="Message" value={this.state.Message} onChange={this.handleInputChange} onFocus={this.handleFocus} onBlur={this.handleBlur} />
+            <input className="contact-form-submit" type="submit" value="Send" />
+          </form>
         </div>
-        <form onSubmit={this.handleSubmit}>
-          <input className="contact-form-input" name="Name" value={this.state.Name} onChange={this.handleInputChange} onFocus={this.handleFocus} onBlur={this.handleBlur} />
-          <input className="contact-form-input" name="Email" value={this.state.Email} onChange={this.handleInputChange} onFocus={this.handleFocus} onBlur={this.handleBlur} />
-          <input className="contact-form-input" name="Phone" value={this.state.Phone} onChange={this.handleInputChange} onFocus={this.handleFocus} onBlur={this.handleBlur} />
-          <textarea className="contact-form-input" name="Message" value={this.state.Message} onChange={this.handleInputChange} onFocus={this.handleFocus} onBlur={this.handleBlur} />
-          <input className="contact-form-submit" type="submit" value="Send" />
-        </form>
       </div>
     );
   }

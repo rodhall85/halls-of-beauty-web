@@ -4,8 +4,24 @@
   position: fixed;
   top: 0px;
   z-index: -1;
-  background: url(./images/background-image.png) no-repeat center center;
+  background: url(./images/background-image.png) no-repeat;
 
+}
+
+@media (max-width: 800px) {
+  .background-image {
+    background-position: center;
+  }  
+}
+
+
+
+#debug {
+  position: absolute;
+  top:50px;
+  right:100px;
+  width: 500px;
+  height:100px;
 }
 
 .slogan-container {
@@ -25,4 +41,22 @@
   font-family: 'EuphoriaScript';
   text-align: right;
   color: #333;
+}
+
+@media (min-width: 801px) {
+  .slogan {
+    font-size: 5em;
+  }
+}
+
+@media (min-width: 1080px) {
+  .slogan {
+    font-size: 6em;
+  }
+}
+
+@media (min-width: 1500px) {
+  .slogan {
+    font-size: 7em;
+  }
 }

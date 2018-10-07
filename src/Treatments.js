@@ -6,11 +6,13 @@ import * as data from './data/treatments-data.json';
 class Treatments extends Component {
   render () {
     return (
-      <div className="treatments" id="treatments">
-        <h2 className="section-title">~&nbsp;Treatments&nbsp;~</h2>
-        {data.map(treatmentType => {
-          return <TreatmentType treatmentType={treatmentType} />
-        })}
+      <div className="treatments-container">
+        <div className="treatments" id="treatments">
+          <h2 className="section-title">~&nbsp;Treatments&nbsp;~</h2>
+          {data.map(treatmentType => {
+            return <TreatmentType treatmentType={treatmentType} />
+          })}
+        </div>
       </div>
     );
   }
