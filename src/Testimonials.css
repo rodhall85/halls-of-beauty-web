@@ -12,6 +12,7 @@
 
 .testimonial {
 	padding: 20px;
+	box-sizing: border-box;
 }
 
 .testimonial-quote {
@@ -40,7 +41,7 @@
 
 @media (min-width: 1080px) {
 	.testimonial {
-		width: 30%;
+		width: 33.3%;
 		float: left;
 	}
 }

@@ -33,6 +33,18 @@
   color: #333;
 }
 
+@media (max-width: 370px) {
+  .slogan {
+    font-size: 3em;
+  }
+}
+
+@media (max-width: 280px) {
+  .slogan {
+    font-size: 2em;
+  }
+}
+
 @media (min-width: 801px) {
   .slogan {
     font-size: 5em;
