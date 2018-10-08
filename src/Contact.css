@@ -39,9 +39,10 @@
 }
 
 .contact-form-submit {
-  width: 30% !important;
-  height: 50px;
-  margin-top: -20px;
+  width: 20% !important;
+  height: 40px;
+  margin: auto;
+  margin-top: 20px;
   color: #eee;
   background: #94618E;
   padding: 10px;

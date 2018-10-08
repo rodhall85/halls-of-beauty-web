@@ -14,16 +14,6 @@
   }  
 }
 
-
-
-#debug {
-  position: absolute;
-  top:50px;
-  right:100px;
-  width: 500px;
-  height:100px;
-}
-
 .slogan-container {
   width: 100%;
   height: 100vh;

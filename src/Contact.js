@@ -26,6 +26,7 @@ class Contact extends Component {
   }
 
   handleSubmit(event) {
+    console.log('yer');
     const body = `Name: ${this.state.Name} \r\nEmail: ${this.state.Email} \r\nPhone: ${this.state.Phone} \r\nMessage: ${this.state.Message}\r\n`;
     window.location.href="mailto:rodhall@hotmail.co.uk?subject=Enquiry&body="+body;
     event.preventDefault();
@@ -61,7 +62,7 @@ class Contact extends Component {
             <input className="contact-form-input" name="Email" value={this.state.Email} onChange={this.handleInputChange} onFocus={this.handleFocus} onBlur={this.handleBlur} />
             <input className="contact-form-input" name="Phone" value={this.state.Phone} onChange={this.handleInputChange} onFocus={this.handleFocus} onBlur={this.handleBlur} />
             <textarea className="contact-form-input" name="Message" value={this.state.Message} onChange={this.handleInputChange} onFocus={this.handleFocus} onBlur={this.handleBlur} />
-            <input className="contact-form-submit" type="submit" value="Send" />
+            <div className="contact-form-submit" onClick={this.handleSubmit}>Send</div>
           </form>
         </div>
       </div>

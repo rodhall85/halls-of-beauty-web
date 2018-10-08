@@ -5,7 +5,6 @@ class Intro extends Component {
   render () {
     return (
       <div>
-        <div id="debug">{window.innerWidth}</div>
         <div className="background-image" />
         <div className="slogan-container">
           <div className="slogan">
