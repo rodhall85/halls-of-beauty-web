@@ -1,6 +1,6 @@
 .footer-container {
   background: #222;
-  color: #F8EEE7;
+  color: #FFF;
   width: 100%;
   float: left;
 }
@@ -31,7 +31,7 @@ footer {
 
 .footer-email {
   width: 60%;
-  color: #F8EEE7;
+  color: #FFF;
   text-decoration: none;
   float: left;
   text-align: left;

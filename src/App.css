@@ -22,6 +22,18 @@ h2 {
   font-size: 3em;
 }
 
+@media (min-width: 500px) {
+  h2 {
+    font-size: 4em;
+  }
+}
+
+@media (min-width: 800px) {
+  h2 {
+    font-size: 5em;
+  }
+}
+
 @font-face {
   font-family: EuphoriaScript;
   src: url('./fonts/AlexBrush-Regular.ttf');

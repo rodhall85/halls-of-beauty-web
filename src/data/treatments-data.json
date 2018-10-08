@@ -90,7 +90,7 @@
     }, {
         "category": "Waxing",
         "image": "./images/waxing.jpg",
-        "backgroundColor": "#000",
+        "backgroundColor": "#222",
         "subCategories": [
             {
                 "treatments": [
@@ -144,7 +144,7 @@
     }, {
         "category": "Specialist",
         "image": "./images/specialist.jpg",
-        "backgroundColor": "#000",
+        "backgroundColor": "#222",
         "subCategories": [
             {
                 "treatments": [

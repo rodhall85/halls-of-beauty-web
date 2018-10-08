@@ -21,7 +21,7 @@
 }
 
 .bm-burger-bars {
-  background: #222;
+  background: #fff;
 }
 
 .bm-cross-button {
@@ -36,7 +36,7 @@
 
 .bm-menu {
   height:90%;
-  background: #F8EEE7;
+  background: #FFF;
   padding: 2.5em 1.5em 0;
   overflow: hidden;
 }
