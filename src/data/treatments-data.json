@@ -6,7 +6,7 @@
         "subCategories": [
             {
                 "name": "Gelish Harmony",
-                "description": "Gel polish dries instantly and maintains a high gloss finish which last for 2&nbsp;weeks or&nbsp;more.",
+                "description": "Gel polish dries instantly and maintains a high gloss finish which last for 2 weeks or more.",
                 "treatments": [
                     {
                         "name": "Gelish Application",
@@ -33,7 +33,7 @@
                         "description": "File, cuticle tidy, foot soak, scrub, massage followed by application of Gelish.",
                         "price": "£25"
                     }, {
-                        "name": "GPedicuire remove and new",
+                        "name": "Pedicuire remove and new",
                         "description": "File, cuticle tidy, foot soak, scrub, massage, removal of existing Gelish with re-application.",
                         "price": "£28"
                     }
