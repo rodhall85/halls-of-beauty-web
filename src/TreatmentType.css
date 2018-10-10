@@ -15,3 +15,9 @@
 	font-size: 5em;
 	font-family: 'EuphoriaScript';
 }
+
+@media (max-width: 400px) {
+	.treatment-type-name {
+		font-size: 3em;
+	}
+}

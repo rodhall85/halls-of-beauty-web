@@ -20,3 +20,26 @@
   text-align: left;
   padding-left: 20px;
 }
+
+@media (max-width: 440px) {
+  h1 {
+    font-size: 1.75em;
+  }
+
+  .logo {
+    width: 48px;
+    height: 45px;
+  }
+}
+
+
+@media (max-width: 380px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .logo {
+    width: 32px;
+    height: 30px;
+  }
+}

@@ -19,7 +19,13 @@ html, body, input, textarea {
 
 h2 {
   font-family: 'EuphoriaScript';
-  font-size: 3em;
+  font-size: 2em;
+}
+
+@media (min-width: 400px) {
+  h2 {
+    font-size: 3em;
+  }
 }
 
 @media (min-width: 500px) {

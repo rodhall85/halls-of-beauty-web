@@ -33,6 +33,12 @@
   color: #5f1f5c;
 }
 
+@media (max-width: 1080px) {
+  .slogan {
+    font-weight: bolder;
+  }
+}
+
 @media (max-width: 550px) {
   .slogan {
     font-size: 5em;
