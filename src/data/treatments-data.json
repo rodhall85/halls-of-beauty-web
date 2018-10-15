@@ -1,7 +1,10 @@
 [
     {
         "category": "Nails",
-        "image": "./images/nails.jpg",
+        "image": {
+            "src": "./images/nails.jpg",
+            "alt": "Picture of a nail manicure"
+        },
         "backgroundColor": "#222",
         "subCategories": [
             {
@@ -89,7 +92,10 @@
         ]
     }, {
         "category": "Waxing",
-        "image": "./images/waxing.jpg",
+        "image": {
+            "src": "./images/waxing.jpg",
+            "alt": "Picture of a ladies leg wax"
+        },
         "backgroundColor": "#222",
         "subCategories": [
             {
@@ -124,7 +130,10 @@
         ]
     }, {
         "category": "Massage",
-        "image": "./images/massage.jpg",
+        "image": {
+            "src": "./images/massage.jpg",
+            "alt": "Picture of a lady getting a hand massage"
+        },
         "backgroundColor": "#222",
         "subCategories": [
             {
@@ -143,7 +152,10 @@
         ]
     }, {
         "category": "Specialist",
-        "image": "./images/specialist.jpg",
+        "image": {
+            "src": "./images/specialist.jpg",
+            "alt": "Picture of a reflexology treatment"
+        },
         "backgroundColor": "#222",
         "subCategories": [
             {

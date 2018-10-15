@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
 import './Header.css';
 import Burger from './Burger';
-import { slide as Menu } from 'react-burger-menu'
 
 class Header extends Component {
   render () {

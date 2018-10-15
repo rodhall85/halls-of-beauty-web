@@ -28,7 +28,7 @@ class Contact extends Component {
   handleSubmit(event) {
     console.log('yer');
     const body = `Name: ${this.state.Name} \r\nEmail: ${this.state.Email} \r\nPhone: ${this.state.Phone} \r\nMessage: ${this.state.Message}\r\n`;
-    window.location.href="mailto:rodhall@hotmail.co.uk?subject=Enquiry&body="+body;
+    window.location.href="mailto:bev.hall@outlook.com?subject=Enquiry&body="+body;
     event.preventDefault();
   }
 
@@ -39,7 +39,7 @@ class Contact extends Component {
   }
 
   handleBlur(event) {
-    if (event.target.value == '') {
+    if (event.target.value === '') {
       event.target.value = event.target.name;
     }
   }

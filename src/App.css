@@ -18,7 +18,7 @@ html, body, input, textarea {
 }
 
 h2 {
-  font-family: 'EuphoriaScript';
+  font-family: 'AlexBrush';
   font-size: 2em;
 }
 
@@ -41,7 +41,7 @@ h2 {
 }
 
 @font-face {
-  font-family: EuphoriaScript;
+  font-family: AlexBrush;
   src: url('./fonts/AlexBrush-Regular.ttf');
 }
 
