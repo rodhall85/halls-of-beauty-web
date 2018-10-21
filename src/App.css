@@ -20,6 +20,7 @@ html, body, input, textarea {
 h2 {
   font-family: 'AlexBrush';
   font-size: 2em;
+  text-shadow: 0 0 1.5px #fff;
 }
 
 @media (min-width: 400px) {
