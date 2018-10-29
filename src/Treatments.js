@@ -9,7 +9,7 @@ class Treatments extends Component {
       <div className="treatments-container">
         <div className="treatments" id="treatments">
           <h2 className="section-title">~&nbsp;Treatments&nbsp;~</h2>
-          {data.map((treatmentType, i) => {
+          {data.length > 0 && data.map((treatmentType, i) => {
             return <TreatmentType key={i} treatmentType={treatmentType} />
           })}
         </div>

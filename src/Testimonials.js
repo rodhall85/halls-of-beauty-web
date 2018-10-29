@@ -8,7 +8,7 @@ class Testimonials extends Component {
       <div className="testimonials-container">
         <div className="testimonials" id="testimonials">
           <h2 className="section-title">~&nbsp;Testimonials&nbsp;~</h2>
-          {data.map((testimonial, i) => {
+          {data.length > 0 && data.map((testimonial, i) => {
             return (
               <div key={i} className="testimonial">
                 <div className="testimonial-quote"></div>
