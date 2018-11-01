@@ -12,6 +12,17 @@ jest.mock('./data/testimonials.json', () => ({
   ]
 }));
 
+[
+  {"testimonials":[{"message":"test message","name":"test name","location":"test location"}]}
+].forEach(data => {
+  describe('testimonials', () => {
+    
+  });
+});
+
+// TODO mock 0, 1, 2, 3, null & undefined testimonials
+// in each assert the count and content
+
 it('should create testimonials container', () => {
   const wrapper = shallow(<Testimonials />);
   expect(wrapper.find('.testimonials-container').length).toBe(1);
