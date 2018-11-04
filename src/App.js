@@ -3,7 +3,7 @@ import './reset.css';
 import Header from './Header';
 import Intro from './Intro';
 import About from './About';
-import Testimonials from './Testimonials';
+import Testimonials from './testimonials/Testimonials';
 import Treatments from './Treatments';
 import Contact from './Contact';
 import Footer from './Footer';
