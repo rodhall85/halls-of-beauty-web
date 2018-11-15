@@ -8,7 +8,10 @@ class Header extends Component {
       <header className="header">
         <span className="logo" />
         <h1 className="title">Halls of Beauty</h1>
-        <Burger />
+        <div className="contact-header">
+          <span>hallsofbeauty.co.uk</span>
+          <span>07513261203</span>
+        </div>
       </header>
     );
   }

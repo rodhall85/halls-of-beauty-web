@@ -8,8 +8,7 @@ class Intro extends Component {
         <div className="background-image" />
         <div className="slogan-container">
           <div className="slogan">
-            <div>Be beautiful.</div>
-            <div>Be yourself.</div>
+            <div>Gift Voucher</div>
           </div>
         </div>
       </div>

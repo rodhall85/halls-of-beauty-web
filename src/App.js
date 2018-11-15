@@ -15,11 +15,6 @@ class App extends Component {
       <div className="app" id="home">
         <Header />
         <Intro />
-        <About />
-        <Treatments />
-        <Testimonials />
-        <Contact />
-        <Footer />
       </div>
     );
   }
