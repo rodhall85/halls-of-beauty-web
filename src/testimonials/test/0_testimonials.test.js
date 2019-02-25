@@ -2,7 +2,6 @@ import React from 'react';
 import { shallow } from 'enzyme';
 
 import Testimonials from '../Testimonials';
-import { wrap } from 'module';
 
 jest.mock('../../data/testimonials.json', () => ({
   "testimonials": []
