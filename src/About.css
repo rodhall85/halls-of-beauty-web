@@ -1,11 +1,11 @@
 .about-container {
 	background: #f2d9f1;
   color: #fff;
-  width: 100%;
+  width: 33.33%;
+  float:left;
 }
 
 .about {
-  max-width: 800px;
   margin: auto;
 	color: #fff;
   padding-bottom: 30px;
@@ -14,10 +14,10 @@
 }
 
 .pic-bev {
-  width: 90%;
-  height: 400px;
+  width: 70%;
+  height: 180px;
   margin: auto;
-  background: url('./images/bev-2.JPG') no-repeat;
+  background: url('./images/bev-2.png') no-repeat;
   background-size: cover;
   background-position: center; 
 }
@@ -25,27 +25,6 @@
 .write-up {
   width: 80%;
   margin: auto;
-  font-size: 1.4em;
+  font-size: 0.7em;
 }
 
-@media (min-width: 640px) {
-  .pic-bev {
-    width: 40%;
-    float: left;
-  }
-
-  .write-up {
-    width: 40%;
-    float: left;
-    padding-left: 50px;
-  }
-
-  .about-container {
-    float: left;
-  }
-
-  .about {
-    height: 690px;
-    padding: 0 0 50px 50px
-  }
-}

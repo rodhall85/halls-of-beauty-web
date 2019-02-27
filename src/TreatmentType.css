@@ -1,23 +1,19 @@
 .treatment-type {
 	padding-bottom: 50px;
 	float: left;
+	width: 33.33%;
 }
 
 .treatment-type-image {
-	width: 100%;
+	width: 33.33%;
 	height: auto;
+	display:none;
 }
 
 .treatment-type-name {
 	background: #c2457e;
-	padding: 1% 3%;
 	font-weight: bold;
-	font-size: 5em;
+	font-size: 2em;
+	margin: 10px;
 	font-family: 'AlexBrush';
-}
-
-@media (max-width: 400px) {
-	.treatment-type-name {
-		font-size: 3em;
-	}
 }

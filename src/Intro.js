@@ -5,6 +5,10 @@ class Intro extends Component {
   render () {
     return (
       <div>
+        <header className="header">
+          <span className="logo" />
+          <h1 className="title">Halls of Beauty</h1>
+        </header>
         <div className="background-image" />
         <div className="slogan-container">
           <div className="slogan">

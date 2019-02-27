@@ -1,13 +1,12 @@
 .header {
   background-color: #5f1f5c;
-  width: 100%;
-  position: absolute;
-  top: 0;
+  width: 33.33%;
+float:right;  
 }
 
 .logo {
-  width: 64px;
-  height: 60px;
+  width: 32px;
+  height: 30px;
   margin: 10px;
   background: url(images_raw/logo2.png);
   background-size: contain;
@@ -19,27 +18,7 @@
   color:#fff;
   text-align: left;
   padding-left: 20px;
-}
+  margin-top:15px;
+  font-size: 1em;
 
-@media (max-width: 440px) {
-  h1 {
-    font-size: 1.75em;
-  }
-
-  .logo {
-    width: 48px;
-    height: 45px;
-  }
-}
-
-
-@media (max-width: 380px) {
-  h1 {
-    font-size: 1.5em;
-  }
-
-  .logo {
-    width: 32px;
-    height: 30px;
-  }
 }

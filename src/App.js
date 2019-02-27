@@ -13,13 +13,14 @@ class App extends Component {
   render() {
     return (
       <div className="app" id="home">
-        <Header />
-        <Intro />
         <About />
-        <Treatments />
-        <Testimonials />
         <Contact />
-        <Footer />
+        <Intro />
+        <Treatments />
+        {/* <Header />
+        <Intro />
+        <Testimonials />
+        <Footer /> */}
       </div>
     );
   }

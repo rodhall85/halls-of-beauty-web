@@ -2,10 +2,11 @@
   text-align: center;
   height: 100%;
 }
+/*842x595*/
 
 .section-title {
   margin: 0px;
-  padding: 40px 0;
+  padding: 20px 0 0 0;
 }
 
 body {
@@ -19,27 +20,10 @@ html, body, input, textarea {
 
 h2 {
   font-family: 'AlexBrush';
-  font-size: 2em;
-  text-shadow: 0 0 1.5px #fff;
+  font-size: 1.6em;
+  font-weight: bold;
 }
 
-@media (min-width: 400px) {
-  h2 {
-    font-size: 3em;
-  }
-}
-
-@media (min-width: 500px) {
-  h2 {
-    font-size: 4em;
-  }
-}
-
-@media (min-width: 800px) {
-  h2 {
-    font-size: 5em;
-  }
-}
 
 @font-face {
   font-family: AlexBrush;

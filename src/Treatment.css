@@ -3,30 +3,30 @@
 	color: #222;
 	float: left;
 	display: table-row;
-	width: 100%;
+	width: 80%;
+	margin-left:24px;
 }
 
 .treatment-name {
-	width: 75%;
+	width: 85%;
 	text-align: left;
 	float: left;
 	font-weight: bold;
-	font-size: 1em;
-	padding: 10px 10px 0 10px;
+	font-size: 0.5em;
 	background-color: #FFF;
 	display: table-cell;
+	height:15px;
 }
 
 .treatment-description {
+	display: none;
 	width: 75%;
 	text-align: left;
 	clear: left;
 	float: left;
 	font-style: italic;
 	font-size: 1em;
-	padding: 5px 10px 10px 10px;
 	background-color: #FFF;
-	display: table-cell;
 	min-height: 30px;
 }
 
@@ -34,11 +34,10 @@
 	float: right;
 	text-align: right;
 	font-weight: bold;
-	font-size: 1.7em;
+	font-size: 0.6em;
 	color: #FFF;
 	display: table-cell;
 	vertical-align: middle;
-	padding: 10px 10px 0 0;
 }
 
 @media (max-width: 360px) {

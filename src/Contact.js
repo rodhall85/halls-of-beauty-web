@@ -54,7 +54,7 @@ class Contact extends Component {
             <p><a href="mailto:bev.hall@outlook.com">bev.hall@outlook.com</a> | 07513261203</p>
             <br />
             <p>Appointments available from 9:30am to 8pm Mon -Fri</p>
-            <p>Please leave me a message to book</p>
+            <p>Please get in touch to book</p>
             <br />
           </div>
           <form onSubmit={this.handleSubmit}>
@@ -64,6 +64,11 @@ class Contact extends Component {
             <textarea className="contact-form-input" name="Message" value={this.state.Message} onChange={this.handleInputChange} onFocus={this.handleFocus} onBlur={this.handleBlur} />
             <div className="contact-form-submit" onClick={this.handleSubmit}>Send</div>
           </form>
+        </div>
+        <div className="contact-footer">
+          <p>&copy; {new Date().getFullYear()} Halls of Beauty</p>
+          <p>bev.hall@outlook.com</p>
+          <p>07513261203</p>
         </div>
       </div>
     );
