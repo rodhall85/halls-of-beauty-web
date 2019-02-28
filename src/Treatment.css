@@ -5,6 +5,7 @@
 	display: table-row;
 	width: 80%;
 	margin-left:24px;
+	margin-top: 3.2px!important;
 }
 
 .treatment-name {
@@ -16,6 +17,8 @@
 	background-color: #FFF;
 	display: table-cell;
 	height:15px;
+	padding: 1px 0 0 5px;
+	
 }
 
 .treatment-description {
@@ -38,6 +41,7 @@
 	color: #FFF;
 	display: table-cell;
 	vertical-align: middle;
+	padding:1px 5px 0 0;
 }
 
 @media (max-width: 360px) {

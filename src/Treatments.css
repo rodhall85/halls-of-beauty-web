@@ -10,3 +10,26 @@
 	max-width: 800px;
 	margin: auto;
 }
+
+.gift-vouchers {
+	width: 180px;
+	height: 100px;
+	position: absolute;
+	top: 750px;
+	left: 248px;
+	z-index: 10;
+	background: url('./images/gift-vouchers.png') no-repeat;
+	background-size: cover;
+  background-position: center; 
+}
+
+.gift-vouchers-text {
+	position: absolute;
+	top: 850px;
+	left: 248px;
+	width: 180px;
+	text-align: center;
+	font-size: 0.8em;
+	background:#5f1f5c;
+
+}

@@ -1,7 +1,7 @@
 .about-container {
 	background: #f2d9f1;
   color: #fff;
-  width: 33.33%;
+  width: 33.1%;
   float:left;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .pic-bev {
-  width: 70%;
+  width: 60%;
   height: 180px;
   margin: auto;
   background: url('./images/bev-2.png') no-repeat;

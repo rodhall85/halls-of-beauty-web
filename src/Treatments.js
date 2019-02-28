@@ -12,6 +12,15 @@ class Treatments extends Component {
             return <TreatmentType key={i} treatmentType={treatmentType} />
           })}
         </div>
+
+        <div className="gift-vouchers">
+          
+        </div>
+        <div className="gift-vouchers-text">
+          <p>
+            Gift vouchers available
+          </p>
+        </div>
       </div>
     );
   }
