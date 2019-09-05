@@ -35,6 +35,7 @@ class Burger extends Component {
         <Menu className="menu" right onStateChange={ isMenuOpen } isOpen={ this.state.menuIsOpen }>
             <Link className="menu-item" to="#home" onClick={ this.closeMenu }>HOME</Link>
             <Link className="menu-item" to="#about" onClick={ this.closeMenu }>ABOUT ME</Link>
+            <Link className="menu-item" to="#promotions" onClick={ this.closeMenu }>PROMOTIONS</Link>
             <Link className="menu-item" to="#treatments" onClick={ this.closeMenu }>TREATMENTS</Link>
             <Link className="menu-item" to="#testimonials" onClick={ this.closeMenu }>TESTIMONIALS</Link>
             <Link className="menu-item" to="#contact" onClick={ this.closeMenu }>CONTACT</Link>

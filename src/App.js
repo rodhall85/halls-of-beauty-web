@@ -3,6 +3,7 @@ import './reset.css';
 import Header from './Header';
 import Intro from './Intro';
 import About from './About';
+import Promotions from './Promotions';
 import Testimonials from './testimonials/Testimonials';
 import Treatments from './Treatments';
 import Contact from './Contact';
@@ -16,6 +17,7 @@ class App extends Component {
         <Header />
         <Intro />
         <About />
+        <Promotions />
         <Treatments />
         <Testimonials />
         <Contact />

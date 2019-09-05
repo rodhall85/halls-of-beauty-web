@@ -1,4 +1,4 @@
-[
+export default [
     {
         "category": "Nails",
         "image": {
@@ -36,35 +36,9 @@
                         "description": "File, cuticle tidy, foot soak, scrub, massage followed by application of Gelish.",
                         "price": "25"
                     }, {
-                        "name": "Pedicuire remove and new",
+                        "name": "Pedicure remove and new",
                         "description": "File, cuticle tidy, foot soak, scrub, massage, removal of existing Gelish with re-application.",
                         "price": "28"
-                    }
-                ]
-            }, {
-                "name": "Polygel",
-                "description": "Polygel is 23% lighter than acrylics, the most natural feeling for enhancements with lots of flexibility whilst still having lots of strength. It is feather-light and odourless. Not an acrylic, not a hard gel! Gelish Polygel combines the best of both in an all-in-one system.",
-                "treatments": [
-                    {
-                        "name": "Polygel nail extensions",
-                        "description": "File, cuticle tidy, tips applied, Polygel finished with Gelish",
-                        "price": "35"
-                    }, {
-                        "name": "Polygel overlays",
-                        "description": "File, cuticle tidy, application of Polygel to natural nails finished with Gelish",
-                        "price": "25"
-                    }, {
-                        "name": "Infills",
-                        "description": "File, cuticle tidy, infilled with Polygel",
-                        "price": "25"
-                    }, {
-                        "name": "Polygel removal only",
-                        "description": "File, cuticle tidy, removal of Polygel finished with nail strengthener",
-                        "price": "10"
-                    }, {
-                        "name": "Polygel removal with manicure",
-                        "description": "File, cuticle tidy, hand soak, scrub, massage finished with nail strengthner",
-                        "price": "22"
                     }
                 ]
             }, {
@@ -79,11 +53,11 @@
                         "description": "File, cuticle soak, foot soak, foot scrub, foot massage followed by strengtherner.",
                         "price": "18"
                     }, {
-                        "name": "Luxury Manicure",
+                        "name": "Luxury manicure",
                         "description": "Enjoy whilst the warm wax is applied to your hands, which leaves your hands feeling soothed and hydrated whilst improving circulation and dry skin. File, cuticle tidy, hand and arm exfoliation, mask and warm wax finished with a relaxing hand and arm massage.",
                         "price": "25"
                     }, {
-                        "name": "Luxury Pedicure",
+                        "name": "Luxury pedicure",
                         "description": "Enjoy whilst the warm wax is applied to your feet, which leaves your feet feeling soothed and hydrated whilst improving circulation and dry skin. File, cuticle tidy, exfoliation, mask and warm wax finished with a relaxing foot massage.",
                         "price": "25"
                     }
@@ -107,23 +81,32 @@
                         "name": "Lip wax",
                         "price": "5"
                     }, {
+                        "name": "Eyebrow and lip wax",
+                        "price": "9"
+                    }, {
                         "name": "Chin wax",
                         "price": "5"
                     }, {
                         "name": "Lip and chin wax",
                         "price": "9"
                     }, {
-                        "name": "1/2 leg wax",
-                        "price": "12"
-                    }, {
                         "name": "Full leg wax",
                         "price": "18"
+                    }, {
+                        "name": "Half leg wax",
+                        "price": "12"
                     }, {
                         "name": "Bikini wax",
                         "price": "9"
                     }, {
                         "name": "Underarm",
                         "price": "7"
+                    }, {
+                        "name": "Full arm wax",
+                        "price": "13"
+                    }, {
+                        "name": "Half arm wax",
+                        "price": "8"
                     }
                 ]
             }
@@ -146,42 +129,50 @@
                         "name": "Full body massage",
                         "description": "Whole body experience to help soothe tired aching muscles and leave you feeling relaxed and refreshed.",
                         "price": "27"
+                    }, {
+                        "name": "Indian head massage",
+                        "description": "This head massage is stimulating to the neck, shoulders and head. Relieving fatigue, headaches, sinusitis with having a sense of deep calming relaxtion.",
+                        "price": "18"
+                    }, {
+                        "name": "Reflexology",
+                        "description": "A wonderful treatment to help relax the whole body, reduce stress and tension whilst reblancing all of the body systems.",
+                        "price": "25"
+                    }, {
+                        "name": "Hopi ear candles",
+                        "description": "Relaxing treatment designed for people who suffer from migraines, headaches, sinusitits, glue ear tinnitus and for anyone who would like a general sense of relaxation.",
+                        "price": "20"
                     }
                 ]
             }
         ]
     }, {
-        "category": "Specialist",
+        "category": "Eyes",
         "image": {
-            "src": "./images/specialist.jpg",
-            "alt": "Picture of a reflexology treatment"
+            "src": "./images/eyes.jpg",
+            "alt": "Picture of a pair of eyes"
         },
         "backgroundColor": "#222",
         "subCategories": [
             {
                 "treatments": [
                     {
-                        "name": "Reflexology",
-                        "description": "A wonderful treatment to help relax the whole body, reduce stress and tension whilst reblancing all of the body systems.",
-                        "price": "25"
-                    }, {
-                        "name": "Indian Head Massage",
-                        "description": "This head massage is stimulating to the neck, shoulders and head. Relieving fatigue, headaches, sinusitis with having a sense of deep calming relaxtion.",
-                        "price": "18"
-                    }, {
-                        "name": "Hopi ear candles",
-                        "description": "Relaxing treatment designed for people who suffer from migraines, headaches, sinusitits, glue ear tinnitus and for anyone who would like a general sense of relaxation.",
-                        "price": "20"
-                    }, {
-                        "name": "Eyelash Tint",
+                        "name": "Eyelash tint",
                         "description": "Patch test required at least 24 hours prior to treatment. Treatment lasts 4-6 weeks.",
                         "price": "9"
                     }, {
-                        "name": "Eyebrow Tint",
+                        "name": "Eyebrow tint",
                         "description": "Patch test required at least 24 hours prior to treatment. Treatment lasts 4 weeks.",
                         "price": "7"
                     }, {
-                        "name": "Eyelash & Eyebrow Tint",
+                        "name": "Eyelash and eyebrow tint",
+                        "description": "Patch test required at least 24 hours prior to treatment. Treatment lasts 4-6 weeks.",
+                        "price": "12"
+                    }, {
+                        "name": "Eyelash perm and tint",
+                        "description": "Patch test required at least 24 hours prior to treatment. Treatment lasts 6-8 weeks.",
+                        "price": "25"
+                    }, {
+                        "name": "Eyebrow tint and tidy",
                         "description": "Patch test required at least 24 hours prior to treatment. Treatment lasts 4-6 weeks.",
                         "price": "12"
                     }
@@ -189,4 +180,4 @@
             }
         ]
     }
-]
+];

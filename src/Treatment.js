@@ -3,13 +3,13 @@ import './Treatment.css';
 
 class Treatment extends Component {
   render () {
-    const treatment = this.props.data;
+    const { name, price, description } = this.props.data;
 
     return (
       <div className="treatment">
-        <span className="treatment-name">{treatment.name}</span>
-        <span className="treatment-price">{treatment.price}</span>
-        <span className="treatment-description">{treatment.description}</span>
+        <span className="treatment-name">{name}</span>
+        <span className="treatment-price">&pound;{price}</span>
+        <span className="treatment-description">{description}</span>
       </div>
     );
   }

@@ -1,0 +1,43 @@
+.promotions-container {
+	background: #fff;
+  color: #fff;
+  width: 100%;
+  margin: auto;
+}
+
+.promotions {
+  max-width: 800px;
+  margin: auto;
+	color: #fff;
+  padding-bottom: 30px;
+  background: #5f1f5c;
+  padding-bottom: 30px;
+}
+
+.refer-a-friend {
+  width: 90%;
+  margin: auto;
+  font-size: 1.4em;
+}
+
+.monthly-offer {
+  width: 90%;
+  margin: auto;
+  font-size: 1.2em;
+}
+
+@media (min-width: 640px) {
+  .promotions-container {
+    float: left;
+  }
+
+  .promotions {
+    height: 500px;
+  }
+}
+
+@media (max-width: 639px) {
+  .promotions {
+    height: 550px;
+  }
+}
