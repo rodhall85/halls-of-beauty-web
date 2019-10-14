@@ -19,7 +19,7 @@ describe('gallery', () => {
   });
   
   it('should create 4 pictures', () => {
-    expect(wrapper.find('.photo').length).toBe(4);
+    expect(wrapper.find('.image').length).toBe(8);
   });
   
 });
