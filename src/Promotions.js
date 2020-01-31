@@ -17,12 +17,12 @@ class Promotions extends Component {
           <hr />
           <div className="monthly-offer">
             <h3>
-              *** September offer ***
+              *** February offer ***
             </h3>
             <Treatment data={{
-                name: "Swedish back massage",
-                description: "Designed to focus on tension areas to release aches and pains and aid relaxation.",
-                price: "15"
+                name: "Gelish toes",
+                description: "File, cuticle tidy and application of gel. Lasts 6-8 weeks.",
+                price: "12"
               }}
             />
           </div>
