@@ -1,25 +1,16 @@
-import React from 'react';
-
-import images from './images/gallery';
+import React, { Component } from 'react';
 import './Gallery.css';
 
-const Gallery = () => {
-  return (
-    <div className="gallery-container">
-      <div className="gallery" id="gall">
-        {images && images.map(i => {
-          return (
-            <img 
-              className="image"
-              key={i.id}
-              src={i.src}
-              title={i.title}
-            />
-          );
-        })}
+class Gallery extends Component {
+  render () {
+    return (
+      <div className="gallery-container">
+        <div className="gallery">
+        
+        </div>
       </div>
-    </div>
-  );
-};
+    );
+  }
+}
 
 export default Gallery

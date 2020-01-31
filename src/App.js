@@ -4,7 +4,6 @@ import Header from './Header';
 import Intro from './Intro';
 import About from './About';
 import Promotions from './Promotions';
-import Gallery from './Gallery';
 import Testimonials from './testimonials/Testimonials';
 import Treatments from './Treatments';
 import Contact from './Contact';
@@ -18,7 +17,6 @@ class App extends Component {
         <Header />
         <Intro />
         <About />
-        <Gallery />
         <Promotions />
         <Treatments />
         <Testimonials />
