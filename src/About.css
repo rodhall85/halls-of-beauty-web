@@ -24,8 +24,13 @@
 
 .write-up {
   width: 80%;
-  margin: auto;
+  margin: 0 auto;
   font-size: 1.4em;
+  box-sizing: border-box;
+}
+
+.write-up h2 {
+  font-size: 1.1em;
 }
 
 @media (min-width: 640px) {
@@ -35,9 +40,10 @@
   }
 
   .write-up {
-    width: 40%;
+    width: 55%;
     float: left;
-    padding-left: 50px;
+    padding-left: 40px;
+    margin: -60px auto;
   }
 
   .about-container {
@@ -47,5 +53,11 @@
   .about {
     height: 690px;
     padding: 0 0 50px 50px
+  }
+}
+
+@media (min-width: 800px) {
+  .write-up {
+    margin: -20px auto;
   }
 }

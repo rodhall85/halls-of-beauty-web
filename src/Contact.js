@@ -26,7 +26,6 @@ class Contact extends Component {
   }
 
   handleSubmit(event) {
-    console.log('yer');
     const body = `Name: ${this.state.Name} \r\nEmail: ${this.state.Email} \r\nPhone: ${this.state.Phone} \r\nMessage: ${this.state.Message}\r\n`;
     window.location.href="mailto:bev.hall@outlook.com?subject=Enquiry&body="+body;
     event.preventDefault();
@@ -48,7 +47,7 @@ class Contact extends Component {
     return (
       <div className="contact-container">
         <div className="contact-form" id="contact">
-          <h2 className="section-title">~ Get in touch ~</h2>
+          <h1 className="section-title">~ Get in touch ~</h1>
           <div className="contact-form-info">
             <p>Whittlesey, Peterborough, UK</p>
             <p><a href="mailto:bev.hall@outlook.com">bev.hall@outlook.com</a> | 07513261203</p>

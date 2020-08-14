@@ -8,7 +8,7 @@ class Promotions extends Component {
     return (
       <div className="promotions-container">
         <div className="promotions" id="promotions">
-          <h2 className="section-title">~ Promotions ~</h2>
+          <h1 className="section-title">~ Promotions ~</h1>
           <div className="refer-a-friend">
             <h3>
               Refer a friend and you both will receive 10%&nbsp;off your next&nbsp;treatment!

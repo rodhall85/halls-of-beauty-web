@@ -17,26 +17,26 @@ html, body, input, textarea {
   font-family: 'Montserrat';
 }
 
-h2 {
+.section-title {
   font-family: 'AlexBrush';
   font-size: 2em;
   text-shadow: 0 0 1.5px #fff;
 }
 
 @media (min-width: 400px) {
-  h2 {
+  .section-title {
     font-size: 3em;
   }
 }
 
 @media (min-width: 500px) {
-  h2 {
+  .section-title {
     font-size: 4em;
   }
 }
 
 @media (min-width: 800px) {
-  h2 {
+  .section-title {
     font-size: 5em;
   }
 }

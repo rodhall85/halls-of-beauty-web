@@ -6,14 +6,15 @@ class About extends Component {
     return (
       <div className="about-container">
         <div className="about" id="about">
-          <h2 className="section-title">~ A little about me ~</h2>
+          <h1 className="section-title">~ A little about me ~</h1>
           <div className="pic-bev">
             
           </div>
           <div className="write-up">
+            <h2>I love to perform beauty treatments in <strong>Whittlesey</strong> and <strong>surrounding areas</strong>.</h2>
             <p>
-              I've been a beauty therapist since 2007 
-              in and around&nbsp;Whittlesey and have worked 
+              I've been a <strong>beauty therapist</strong> since <strong>2007 </strong> 
+              in and around&nbsp;<strong>Whittlesey</strong> and have worked 
               with many&nbsp;clients.
             </p>
             <p>I'm a keen learner and I'm always updating 
@@ -21,7 +22,7 @@ class About extends Component {
             </p>
             <p>I'm rewarded each day with every client 
               I work with using my skills to help them 
-              look and feel&nbsp;special.
+              look and feel&nbsp;<strong>special</strong>.
             </p>
           </div>
         </div>

@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://hallsofbeauty.co.uk/sitemap.xml
