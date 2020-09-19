@@ -17,7 +17,7 @@ class App extends Component {
         <Header />
         <Intro />
         <About />
-        <Promotions />
+        {/* <Promotions /> */}
         <Treatments />
         <Testimonials />
         <Contact />
