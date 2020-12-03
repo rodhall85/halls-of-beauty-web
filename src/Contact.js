@@ -49,7 +49,7 @@ class Contact extends Component {
         <div className="contact-form" id="contact">
           <h1 className="section-title">~ Get in touch ~</h1>
           <div className="contact-form-info">
-            <p>Whittlesey, Peterborough, UK</p>
+            <p>Bourne, Peterborough, UK</p>
             <p><a href="mailto:bev.hall@outlook.com">bev.hall@outlook.com</a> | 07513261203</p>
             <br />
             <p>Appointments available from 9:30am to 8pm Mon -Fri</p>

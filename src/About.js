@@ -11,10 +11,10 @@ class About extends Component {
             
           </div>
           <div className="write-up">
-            <h2>I love to perform beauty treatments in <strong>Whittlesey</strong> and <strong>surrounding areas</strong>.</h2>
+            <h2>I love to perform beauty treatments in <strong>Bourne</strong> and <strong>surrounding areas</strong>.</h2>
             <p>
               I've been a <strong>beauty therapist</strong> since <strong>2007 </strong> 
-              in and around&nbsp;<strong>Whittlesey</strong> and have worked 
+              in and around&nbsp;Whittlesey (recently move to&nbsp;<strong>Bourne</strong>) and have worked 
               with many&nbsp;clients.
             </p>
             <p>I'm a keen learner and I'm always updating 
