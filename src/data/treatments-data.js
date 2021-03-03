@@ -9,35 +9,39 @@ export default [
         "subCategories": [
             {
                 "name": "Gelish Harmony",
-                "description": "Gel polish dries instantly and maintains a high gloss finish which last for 2 weeks or more.",
+                "description": "Gel polish dries instantly and maintains a high gloss finish which last for 2 weeks or\xa0more.",
                 "treatments": [
                     {
-                        "name": "Gelish Application",
-                        "description": "Gelish Harmony nails last 2-4 weeks.",
+                        "name": "Gelish nails application",
+                        "description": "Gelish Harmony nails last 2-4\xa0weeks.",
+                        "price": "18"
+                    }, {
+                        "name": "Gelish toes application",
+                        "description": "Gelish Harmony nails last 6-8 weeks on\xa0toes.",
                         "price": "18"
                     }, {
                         "name": "Gelish remove and new",
-                        "description": "File, cuticle tidy, removal of existing Gelish with re-application.",
+                        "description": "File, cuticle tidy, removal of existing Gelish with\xa0re-application.",
                         "price": "22"
                     }, {
                         "name": "Gelish remove only",
-                        "description": "File, cuticle tidy, removal of Gelish followed by application of nail strengthener.",
+                        "description": "File, cuticle tidy, removal of Gelish followed by application of nail\xa0strengthener.",
                         "price": "6"
                     }, {
                         "name": "Manicure with Gelish",
-                        "description": "File, cuticle tidy, scrub, massage followed by application of Gelish.",
+                        "description": "File, cuticle tidy, scrub, massage followed by application of\xa0Gelish.",
                         "price": "25"
                     }, {
                         "name": "Manicure with Gelish remove and new",
-                        "description": "File, cuticle tidy, scrub, massage, removal of existing Gelish with re-application.",
+                        "description": "File, cuticle tidy, scrub, massage, removal of existing Gelish with\xa0re-application.",
                         "price": "28"
                     }, {
                         "name": "Pedicure with Gelish",
-                        "description": "File, cuticle tidy, foot soak, scrub, massage followed by application of Gelish.",
+                        "description": "File, cuticle tidy, foot soak, scrub, massage followed by application of\xa0Gelish.",
                         "price": "25"
                     }, {
                         "name": "Pedicure remove and new",
-                        "description": "File, cuticle tidy, foot soak, scrub, massage, removal of existing Gelish with re-application.",
+                        "description": "File, cuticle tidy, foot soak, scrub, massage, removal of existing Gelish with\xa0re-application.",
                         "price": "28"
                     }
                 ]
@@ -46,19 +50,19 @@ export default [
                 "treatments": [
                     {
                         "name": "Manicure with strengthener",
-                        "description": "File, cuticle soak, hand scrub, hand massge followed by strenghtener.",
+                        "description": "File, cuticle soak, hand scrub, hand massge followed by\xa0strenghtener.",
                         "price": "14"
                     }, {
                         "name": "Pedicure with strengthener",
-                        "description": "File, cuticle soak, foot soak, foot scrub, foot massage followed by strengtherner.",
+                        "description": "File, cuticle soak, foot soak, foot scrub, foot massage followed by\xa0strengtherner.",
                         "price": "18"
                     }, {
                         "name": "Luxury manicure",
-                        "description": "Enjoy whilst the warm wax is applied to your hands, which leaves your hands feeling soothed and hydrated whilst improving circulation and dry skin. File, cuticle tidy, hand and arm exfoliation, mask and warm wax finished with a relaxing hand and arm massage.",
+                        "description": "Enjoy whilst the warm wax is applied to your hands, which leaves your hands feeling soothed and hydrated whilst improving circulation and dry skin. File, cuticle tidy, hand and arm exfoliation, mask and warm wax finished with a relaxing hand and arm\xa0massage.",
                         "price": "25"
                     }, {
                         "name": "Luxury pedicure",
-                        "description": "Enjoy whilst the warm wax is applied to your feet, which leaves your feet feeling soothed and hydrated whilst improving circulation and dry skin. File, cuticle tidy, exfoliation, mask and warm wax finished with a relaxing foot massage.",
+                        "description": "Enjoy whilst the warm wax is applied to your feet, which leaves your feet feeling soothed and hydrated whilst improving circulation and dry skin. File, cuticle tidy, exfoliation, mask and warm wax finished with a relaxing foot\xa0massage.",
                         "price": "25"
                     }
                 ]
@@ -115,7 +119,7 @@ export default [
         "category": "Massage",
         "image": {
             "src": "./images/massage.jpg",
-            "alt": "Picture of a lady getting a hand massage"
+            "alt": "Picture of a lady getting a hand\xa0massage"
         },
         "backgroundColor": "#222",
         "subCategories": [
@@ -123,23 +127,23 @@ export default [
                 "treatments": [
                     {
                         "name": "Swedish back massage",
-                        "description": "Designed to focus on tension areas to release aches and pains and aid relaxation.",
+                        "description": "Designed to focus on tension areas to release aches and pains and aid\xa0relaxation.",
                         "price": "18"
                     }, {
                         "name": "Full body massage",
-                        "description": "Whole body experience to help soothe tired aching muscles and leave you feeling relaxed and refreshed.",
+                        "description": "Whole body experience to help soothe tired aching muscles and leave you feeling relaxed and\xa0refreshed.",
                         "price": "27"
                     }, {
                         "name": "Indian head massage",
-                        "description": "This head massage is stimulating to the neck, shoulders and head. Relieving fatigue, headaches, sinusitis with having a sense of deep calming relaxtion.",
+                        "description": "This head massage is stimulating to the neck, shoulders and head. Relieving fatigue, headaches, sinusitis with having a sense of deep calming\xa0relaxtion.",
                         "price": "18"
                     }, {
                         "name": "Reflexology",
-                        "description": "A wonderful treatment to help relax the whole body, reduce stress and tension whilst reblancing all of the body systems.",
+                        "description": "A wonderful treatment to help relax the whole body, reduce stress and tension whilst reblancing all of the body\xa0systems.",
                         "price": "25"
                     }, {
                         "name": "Hopi ear candles",
-                        "description": "Relaxing treatment designed for people who suffer from migraines, headaches, sinusitits, glue ear tinnitus and for anyone who would like a general sense of relaxation.",
+                        "description": "Relaxing treatment designed for people who suffer from migraines, headaches, sinusitits, glue ear tinnitus and for anyone who would like a general sense of\xa0relaxation.",
                         "price": "20"
                     }
                 ]
@@ -157,23 +161,19 @@ export default [
                 "treatments": [
                     {
                         "name": "Eyelash tint",
-                        "description": "Patch test required at least 24 hours prior to treatment. Treatment lasts 4-6 weeks.",
+                        "description": "Patch test required at least 24 hours prior to treatment. Treatment lasts 4-6\xa0weeks.",
                         "price": "9"
                     }, {
                         "name": "Eyebrow tint",
-                        "description": "Patch test required at least 24 hours prior to treatment. Treatment lasts 4 weeks.",
+                        "description": "Patch test required at least 24 hours prior to treatment. Treatment lasts 4\xa0weeks.",
                         "price": "7"
                     }, {
                         "name": "Eyelash and eyebrow tint",
-                        "description": "Patch test required at least 24 hours prior to treatment. Treatment lasts 4-6 weeks.",
+                        "description": "Patch test required at least 24 hours prior to treatment. Treatment lasts 4-6\xa0weeks.",
                         "price": "12"
                     }, {
-                        "name": "Eyelash perm and tint",
-                        "description": "Patch test required at least 24 hours prior to treatment. Treatment lasts 6-8 weeks.",
-                        "price": "25"
-                    }, {
                         "name": "Eyebrow tint and tidy",
-                        "description": "Patch test required at least 24 hours prior to treatment. Treatment lasts 4-6 weeks.",
+                        "description": "Patch test required at least 24 hours prior to treatment. Treatment lasts 4-6\xa0weeks.",
                         "price": "12"
                     }
                 ]
