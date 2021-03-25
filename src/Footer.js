@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 import './Footer.css';
 
 const Footer = () => {
-  const bob = 'bill';
-
-  console.log(bob);
-  
   return (
     <div className="footer-container">
       <footer>
