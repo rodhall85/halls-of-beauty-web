@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/home/rod/dev/halls-of-beauty-web/src/testimonials/test/2_testimonials.test.js">
+  </file>
+  <file path="/home/rod/dev/halls-of-beauty-web/src/Gallery.test.js">
+  </file>
+  <file path="/home/rod/dev/halls-of-beauty-web/src/App.test.js">
+  </file>
+  <file path="/home/rod/dev/halls-of-beauty-web/src/testimonials/test/3_testimonials.test.js">
+  </file>
+  <file path="/home/rod/dev/halls-of-beauty-web/src/Header.test.js">
+  </file>
+  <file path="/home/rod/dev/halls-of-beauty-web/src/testimonials/test/1_testimonial.test.js">
+  </file>
+  <file path="/home/rod/dev/halls-of-beauty-web/src/testimonials/test/0_testimonials.test.js">
+  </file>
+</testExecutions>
