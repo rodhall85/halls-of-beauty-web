@@ -18,8 +18,8 @@ describe('gallery', () => {
     expect(wrapper.find('.gallery').length).toBe(1);
   });
   
-  it('should create 4 pictures', () => {
-    expect(wrapper.find('.photo').length).toBe(4);
-  });
+  // it('should create 4 pictures', () => {
+  //   expect(wrapper.find('.photo').length).toBe(4);
+  // });
   
 });
