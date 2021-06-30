@@ -116,6 +116,33 @@ export default [
             }
         ]
     }, {
+        "category": "Kaeso facials",
+        "image": {
+            "src": "./images/facial.jpg",
+            "alt": "Picture of a ladies leg wax"
+        },
+        "backgroundColor": "#222",
+        "subCategories": [
+            {
+                "description": "Natural, vegan and always cruelty free products.",
+                "treatments": [
+                    {
+                        "name": "Rehydrating facial",
+                        "description": "This facial is for normal to dry skin types. Deeply cleansed, gently exfoliated in preparation for an aromatic massage and mask. Finally finished with a moisturiser that leaves the skin feeling replenished, hydrated and protected (1\xa0hour\xa0treatment).",
+                        "price": "30"
+                    },
+                    {
+                        "name": "Rebalancing facial",
+                        "description": "This facial is great for teenage or acne skin to help rebalance any oily skin type, leaving the skin feeling refreshed and protected (1\xa0hour\xa0treatment).",
+                        "price": "30"
+                    }
+                ]
+            }, {
+                "description": "All facials include a complimentary arms, feet or scalp massage.",
+                "treatments": []
+            }
+        ]
+    }, {
         "category": "Massage",
         "image": {
             "src": "./images/massage.jpg",
@@ -133,6 +160,10 @@ export default [
                         "name": "Full body massage",
                         "description": "Whole body experience to help soothe tired aching muscles and leave you feeling relaxed and\xa0refreshed.",
                         "price": "27"
+                    }, {
+                        "name": "Total body indulgence",
+                        "description": "Full body exfoliation, leaving the skin feeling soft and smooth. Followed by a full body massage and facial to rehydrate the skin (2\xa0 hour\xa0treatment).",
+                        "price": "60"
                     }, {
                         "name": "Indian head massage",
                         "description": "This head massage is stimulating to the neck, shoulders and head. Relieving fatigue, headaches, sinusitis with having a sense of deep calming\xa0relaxtion.",
