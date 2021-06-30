@@ -30,6 +30,6 @@ class Promotions extends Component {
       </div>
     );
   }
-};
+}
 
 export default Promotions;
