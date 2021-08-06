@@ -16,7 +16,7 @@ const Footer = () => {
           <div>
             <a className="footer-email" href="mailto:bev.hall@outlook.com">bev.hall@outlook.com</a>
           </div>
-          <div className="footer-phone">07513261203</div>
+          <div className="footer-phone">07513 261203</div>
         </div>
       </footer>
     </div>
