@@ -9,7 +9,7 @@
   width: 64px;
   height: 60px;
   margin: 10px;
-  background: url(images_raw/logo2.png);
+  background: url(../images_raw/logo2.png);
   background-size: contain;
   float: left;
   -webkit-filter: invert(100%);

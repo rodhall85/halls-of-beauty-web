@@ -2,7 +2,7 @@ export default [
     {
         "category": "Nails",
         "image": {
-            "src": "./images/nails.jpg",
+            "src": "nails.jpg",
             "alt": "Picture of a nail manicure"
         },
         "backgroundColor": "#222",
@@ -71,7 +71,7 @@ export default [
     }, {
         "category": "Waxing",
         "image": {
-            "src": "./images/waxing.jpg",
+            "src": "waxing.jpg",
             "alt": "Picture of a ladies leg wax"
         },
         "backgroundColor": "#222",
@@ -118,7 +118,7 @@ export default [
     }, {
         "category": "Kaeso facials",
         "image": {
-            "src": "./images/facial.jpg",
+            "src": "facial.jpg",
             "alt": "Picture of a ladies leg wax"
         },
         "backgroundColor": "#222",
@@ -145,7 +145,7 @@ export default [
     }, {
         "category": "Massage",
         "image": {
-            "src": "./images/massage.jpg",
+            "src": "massage.jpg",
             "alt": "Picture of a lady getting a hand\xa0massage"
         },
         "backgroundColor": "#222",
@@ -183,7 +183,7 @@ export default [
     }, {
         "category": "Eyes",
         "image": {
-            "src": "./images/eyes.jpg",
+            "src": "eyes.jpg",
             "alt": "Picture of a pair of eyes"
         },
         "backgroundColor": "#222",

@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="footer-copyright">&copy; {new Date().getFullYear()} Halls of Beauty</div>
           <div className="footer-facebook">
             <a href="https://www.facebook.com/Halls-Of-Beauty-362920180445378">
-              <img src={require("./images/facebook.svg").default} alt="facebook icon"></img>
+              <img src={require("../images/facebook.svg").default} alt="facebook icon"></img>
             </a>
           </div>
         </div>

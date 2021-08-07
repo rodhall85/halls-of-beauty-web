@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Testimonials.css';
-import * as data from '../data/testimonials.json';
+import * as data from '../../data/testimonials.json';
 
 class Testimonials extends Component {
   render () {

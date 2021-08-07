@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Treatments.css';
 import TreatmentType from './TreatmentType';
-import data from './data/treatments-data';
+import data from '../data/treatments-data.js';
 
 class Treatments extends Component {
   render () {

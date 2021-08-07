@@ -5,7 +5,7 @@ import TreatmentSubCategory from './TreatmentSubCategory';
 class TreatmentType extends Component {
   render () {
     const treatmentType = this.props.treatmentType;
-    const imageName = require(`${treatmentType.image.src}`).default;
+    const imageName = require(`../images/${treatmentType.image.src}`).default;
     const styles = {
       background: treatmentType.backgroundColor
     }
