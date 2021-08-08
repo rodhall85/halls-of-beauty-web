@@ -5,10 +5,10 @@ class Contact extends Component {
   constructor(props) {
     super(props);
     this.defaults = {
-      Name: 'Name',
-      Email: 'Email',
-      Phone: 'Phone',
-      Message: 'Message'
+      Name: '',
+      Email: 'e.g. joe.bloggs@gmail.com',
+      Phone: 'e.g. 07773000123',
+      Message: ''
     };
 
     this.state = this.defaults;
@@ -32,14 +32,14 @@ class Contact extends Component {
   }
 
   handleFocus(event) {
-    if (event.target.value === event.target.name) {
+    if (event.target.value === this.defaults[event.target.name]) {
       event.target.value = '';
     }
   }
 
   handleBlur(event) {
     if (event.target.value === '') {
-      event.target.value = event.target.name;
+      event.target.value = this.defaults[event.target.name];
     }
   }
 
@@ -57,10 +57,30 @@ class Contact extends Component {
             <br />
           </div>
           <form onSubmit={this.handleSubmit}>
-            <input className="contact-form-input" name="Name" value={this.state.Name} onChange={this.handleInputChange} onFocus={this.handleFocus} onBlur={this.handleBlur} />
-            <input className="contact-form-input" name="Email" value={this.state.Email} onChange={this.handleInputChange} onFocus={this.handleFocus} onBlur={this.handleBlur} />
-            <input className="contact-form-input" name="Phone" value={this.state.Phone} onChange={this.handleInputChange} onFocus={this.handleFocus} onBlur={this.handleBlur} />
-            <textarea className="contact-form-input" name="Message" value={this.state.Message} onChange={this.handleInputChange} onFocus={this.handleFocus} onBlur={this.handleBlur} />
+            <label className="contact-form-label">
+              <p>
+                Name:
+              </p>
+              <input className="contact-form-input" name="Name" default="" value={this.state.Name} onChange={this.handleInputChange} onFocus={this.handleFocus} onBlur={this.handleBlur} />
+            </label>
+            <label className="contact-form-label">
+              <p>
+                Email:
+              </p>
+              <input className="contact-form-input" name="Email" default="joe.bloggs@gmail.com" value={this.state.Email} onChange={this.handleInputChange} onFocus={this.handleFocus} onBlur={this.handleBlur} />
+            </label>
+            <label className="contact-form-label">
+              <p>
+                Phone:
+              </p>
+              <input className="contact-form-input" name="Phone" value={this.state.Phone} onChange={this.handleInputChange} onFocus={this.handleFocus} onBlur={this.handleBlur} />
+            </label>
+            <label className="contact-form-label">
+              <p>
+                Message:
+              </p>
+              <textarea className="contact-form-input" name="Message" value={this.state.Message} onChange={this.handleInputChange} onFocus={this.handleFocus} onBlur={this.handleBlur} />
+            </label>
             <div className="contact-form-submit" onClick={this.handleSubmit}>Send</div>
           </form>
         </div>

@@ -10,9 +10,9 @@ class Promotions extends Component {
         <div className="promotions" id="promotions">
           <h1 className="section-title">~ Promotions ~</h1>
           <div className="refer-a-friend">
-            <h3>
+            <h2>
               Refer a friend and you both will receive 10%&nbsp;off your next&nbsp;treatment!
-            </h3>
+            </h2>
           </div>
           <hr />
           <div className="monthly-offer">
