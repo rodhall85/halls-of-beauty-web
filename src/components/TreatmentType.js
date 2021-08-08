@@ -12,7 +12,9 @@ class TreatmentType extends Component {
 
     return (
       <div className="treatment-type" style={styles}>
-        <img className="treatment-type-image" src={imageName} alt={treatmentType.image.alt}/>
+        <div className="treatment-type-image-container">
+          <img className="treatment-type-image" src={imageName} alt={treatmentType.image.alt}/>
+        </div>
         <div className="treatment-type-name">{treatmentType.category}</div>
         {treatmentType.subCategories.map((subCat, i) => {
           return <TreatmentSubCategory key={i} data={subCat} />
