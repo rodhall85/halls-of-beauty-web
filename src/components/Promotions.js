@@ -17,11 +17,17 @@ class Promotions extends Component {
           <hr />
           <div className="monthly-offer">
             <h3>
-              *** Post-covid offer ***
+              *** September offer ***
             </h3>
             <Treatment data={{
-                name: "Gelish hands & feet application",
-                description: "Lasts 2\xa0-\xa04\xa0weeks on hands and 6\xa0-\xa08\xa0weeks on\xa0feet.",
+                name: "Facial and back massage",
+                description: "",
+                price: "30"
+              }}
+            />
+            <Treatment data={{
+                name: "Facial and Gelish hands or feet",
+                description: "",
                 price: "30"
               }}
             />

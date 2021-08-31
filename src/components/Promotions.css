@@ -32,12 +32,12 @@
   }
 
   .promotions {
-    height: 500px;
+    height: 600px;
   }
 }
 
 @media (max-width: 639px) {
   .promotions {
-    height: 550px;
+    height: 700px;
   }
 }
