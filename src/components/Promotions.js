@@ -28,7 +28,7 @@ class Promotions extends Component {
             <Treatment data={{
                 name: "Facial and Gelish hands or feet",
                 description: "",
-                price: "30"
+                price: "35"
               }}
             />
           </div>
